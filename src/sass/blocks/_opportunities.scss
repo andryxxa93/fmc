@@ -1,15 +1,34 @@
 .opportunities {
+    padding: 80px;
     min-height: 896px;
-    .problems {
-        position: relative;
+    .problems {        
+        &__item {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 360px;
+            height: 255px;
+            border: 1.0px solid #ececec;
+            overflow: hidden;
+            &:hover {
+                border-color: red;
+            }
+        }
         &__text {
             position: absolute;
-            bottom: 140px;
-            margin-left: 10px;
+            text-align: center;
             font-size: 18px;
             line-height: 26px;
             font-weight: 300;
             color: #393939;
+            bottom: 30px;
+            z-index: 5;
+        }
+        &__round {
+            position: absolute;
+            right: -40px;
+            bottom: -33px;
         }
     }
 }
