@@ -1,0 +1,15 @@
+.opportunities {
+    min-height: 896px;
+    .problems {
+        position: relative;
+        &__text {
+            position: absolute;
+            bottom: 140px;
+            margin-left: 10px;
+            font-size: 18px;
+            line-height: 26px;
+            font-weight: 300;
+            color: #393939;
+        }
+    }
+}

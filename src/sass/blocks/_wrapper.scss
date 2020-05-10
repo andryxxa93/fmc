@@ -1,0 +1,9 @@
+.wrapper {
+    display: flex;
+    &_row {
+        flex-direction: row;
+    }
+    &_jc-sb {
+        justify-content: space-between;
+    }
+}
