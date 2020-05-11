@@ -1,5 +1,6 @@
 @import "./libs/fonts";
 @import "./libs/bootstrap.min";
+@import "./base/variables";
 
 *	{
     font-family: 'Roboto', sans-serif;
@@ -11,3 +12,9 @@
 @import "./blocks/wrapper";
 @import "./blocks/opportunities";
 @import "./blocks/arrow";
+@import "./blocks/rectangle";
+@import "./blocks/round";
+@import "./blocks/text";
+@import "./blocks/experts";
+@import "./blocks/title";
+@import "./blocks/benefit";

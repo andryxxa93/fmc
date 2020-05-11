@@ -1,0 +1,13 @@
+.text {
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 300;
+    color: $grey;
+    bottom: 30px;
+    z-index: 5;
+    &_bold {
+        font-weight: 700;    
+    }
+}
