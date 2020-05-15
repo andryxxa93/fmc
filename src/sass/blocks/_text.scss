@@ -4,6 +4,7 @@
     line-height: 26px;
     font-weight: 300;
     color: $grey;
+    z-index: 2;
     &_bold {
         font-weight: 700;    
     }
@@ -16,11 +17,37 @@
         color: #ffffff;
     }
     &_400 {
-        font-size: 23px;
         font-weight: 400;
     }
     &_align-last {
         text-align: justify;
         text-align-last: center;
     }
+    &_fs-23 {
+        font-size: 23px;
+    }
+    &_fs-14 {
+        font-size: 14px;
+    }
+    &_hover-blue {
+        &:hover {
+            text-decoration: none;
+            color: #00c2f0;
+        }
+    }
+    &_data {
+        width: 490px;
+        margin-top: 20px;
+    }
+    &_tar {
+        text-align: right;
+    }
+    &_tal {
+        text-align: left;
+    }
+}
+
+.active {
+    color: #00c2f0;
+    background-color: #fff;
 }

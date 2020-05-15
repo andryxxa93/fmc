@@ -1,0 +1,12 @@
+.square {
+    width: 167px;
+    height: 167px;
+    opacity: 0.3;
+    background-color: $blue;
+    &_absolute {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 1;
+    }
+}

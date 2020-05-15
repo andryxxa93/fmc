@@ -3,6 +3,7 @@
     background: url(../../img/promo.png) center (center/cover) no-repeat;
     min-height: 700px;
     padding: 39px 0 0 0;
+    overflow: hidden;
     .menu {
         display: flex;
         justify-content: space-between;
@@ -52,6 +53,6 @@
         }
     }
     &__img {
-        margin-top: 56px;
+        margin-top: 27px;
     }
 }

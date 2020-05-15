@@ -4,11 +4,21 @@
     font-weight: 900;
     color: #ffffff;
     text-align: center;
+    z-index: 5;
     &_grey
     {
     color: $grey; 
     }
     &_mb {
         margin-bottom: 44px;
+    }
+    &_absolute {
+        position: absolute;
+        left: 50%;
+        top: 79px;
+        transform: translateX(-50%);
+    }
+    &_width {
+        width: 375px;
     }
 }

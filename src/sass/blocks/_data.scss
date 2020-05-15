@@ -1,0 +1,37 @@
+.data {
+    position: relative;
+    height: 580px;
+    &__left {
+        padding: 0 43px;
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 580px;
+        background: url('../../img/data_1.jpg') center (center/cover) no-repeat;
+    }
+    &__right {
+        padding: 0 43px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+        height: 580px;
+        background: url('../../img/data_2.jpg') center (center/cover) no-repeat;
+    }
+    &__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    &__info_right {
+        margin-left: 39px;
+        align-items: flex-start;
+    }
+    &__info_left {
+        margin-right: 39px;
+        align-items: flex-end;
+    }
+}
