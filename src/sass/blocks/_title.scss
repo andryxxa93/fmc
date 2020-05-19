@@ -18,7 +18,11 @@
         top: 79px;
         transform: translateX(-50%);
     }
-    &_width {
+    &_data {
         width: 375px;
+    }
+    &_start {
+        width: 590px;
+        margin: 0 auto;
     }
 }

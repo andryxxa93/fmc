@@ -6,4 +6,8 @@
     &_jc-sb {
         justify-content: space-between;
     }
+    &_column {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }

@@ -1,0 +1,40 @@
+.footer {
+    padding: 50px 0 40px 0;
+    background-color: #0082a1;
+    &__text {
+        margin-top: 20px;
+        font-size: 14px;
+        font-weight: 300;
+        color: #dfe2e2;
+        line-height: 19px;
+        width: 377px;
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 700;
+        color: #ffffff
+    }
+    &__logo {
+        margin-top: 20px;
+    }
+    &__link {
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+        &:hover {
+            color: #ffffff;
+        }
+    }
+    &__divider {
+        height: 1px;
+        opacity: 0.3;
+        background-color: #fff;
+        margin-top: 40px;
+    }
+    &__rights {
+        text-align: center;
+        font-size: 13px;
+        font-weight: 300;
+        color: #ffffff;
+    }
+}
